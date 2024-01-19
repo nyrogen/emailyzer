@@ -24,12 +24,12 @@ git clone https://github.com/nyrogen/emailyzer.git
 cd emailyzer/
 virtualenv venv
 source venv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## 🦆 Quickstart
 
-To analyze an `.eml` file, run `python3 emailyzer.py <path_to_eml>`.
+To analyze an `.eml` file, run `python3 main.py <path_to_eml>`.
 
 This will create a folder named as the `.eml` file.  
 The full analysis, along the attachments and the body, will be inside this folder.
